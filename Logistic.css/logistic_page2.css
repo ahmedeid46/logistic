@@ -1,0 +1,983 @@
+
+.logistic_section{
+background-image: url(../Images/logistics-business.jpg);
+  margin: 0 0 auto;
+    width: 100% !important;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+hr{
+    
+  width: 100%;
+  position: absolute;
+  top: 10%;
+height: .1px;
+opacity: .5;
+    
+    
+    
+}
+.container{
+    
+    margin: 0 0 auto;
+}
+.contain{
+display: flex;
+float: right ;
+    column-gap: 100px;
+  
+
+}
+
+.phone{
+    
+color: white;
+    
+    font-family: "Roboto",Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    transform: translate(40%, 10%);
+}
+.email_logistic{
+    
+    color: white;
+    
+    font-family: "Roboto",Sans-serif;
+    transform: translate(-50%, 10%);
+    font-size: 12px;
+    font-weight: 400;
+}
+nav{
+    
+height: 100px;
+width: 100%;
+background-color: #fff;
+}
+.logistic_menu {
+    position: absolute;
+ margin-left: 30%;   
+    
+}
+.logistic_menu li{
+list-style: none;
+display: inline-block; 
+float: left; 
+line-height: 100px; 
+}
+
+.logistic_menu li a{
+      text-decoration: none; /* We can put this piece of code inside * up to make sure that all links inside the page will not have a line under them */
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+     color: white;
+     font-family: "Roboto",Sans-serif;
+     padding: 0 20px; /* zero for the top and bottom and 20px for the right and the left */
+     display: block; /* To make the link whole the list not only on the text */
+}
+.home{
+    
+   color: #F15F22;
+}
+ul li a:hover{
+    color:#F15F22 ;
+}
+.logistic_btn{
+   color: black;
+font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+     font-family: "Roboto",Sans-serif;
+     padding: 0 20px; /* zero for the top and bottom and 20px for the right and the left */
+     display: block; /* To make the link whole the list not only on the text */
+    height: 50px;
+    background-color: white;
+    border: none;
+    transform: translate(10%, 45%);
+    cursor: pointer;
+}
+.logistic_menu li button:hover{
+    color: white;
+    background-color: #F15F22;
+}
+.content{
+  transform: translate(27%, 0%);  
+      font-family: Passion One;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 3em;
+    
+}
+.phone_link{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+}
+.email_link{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.search_box{
+    
+    transform: translate(29.5%, 0%); 
+    
+}
+.text_logistic{
+    width: 500px;
+    height: 50px;
+    padding: 0px 20px;
+}
+.search_btn_logistic{
+   height: 50px; 
+    width: 100px;
+    transform: translate(-17%, 0%);
+    background-color: #F15F22;
+    border: none;
+    cursor: pointer;
+}
+.graph{
+        color: #FFF;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+       .wrapper{ /* Whatever num of divs you gonna put in the html it gonna follow this grid */
+   
+         display: grid;
+            grid-template-columns: 50% 50% 50%;
+            grid-column-gap: 0em; /* That seperate columns */
+            grid-row-gap: 1em;   /* That seperate rows */
+            /* we can use grid-gap: 1em; and it can do the same */
+            width: 750px;
+            height: 150px;
+           transform: translate(15%, 50%);
+           
+            
+        }
+    .wrapper > div{    /* All divs inside wrapper */
+      background:#b3b3ff;
+      padding:1em;
+    }
+        .wrapper > div:nth-child(odd){ /* each div has a different shade of gray */
+            background:#e6e6ff ;
+    }
+            
+    .words  {
+        
+        
+        transform: translate(20%,0%);
+        
+    } 
+    .head2{
+ color: #677294;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+        
+        
+    }
+    
+    .par{
+        
+          color: #2C234D;
+    font-family: "Passion One",Sans-serif;
+    font-size: 19px;
+    font-weight: 800;  
+        
+        
+    }
+    .icon{
+        
+    transform: translate(-110%,90%);
+    }
+    .call{
+text-decoration: none;
+    
+    }
+.P-services{
+    transform: translate(18%,50%);
+    font-size: 14px;
+    line-height: 1em;
+    color: dimgray;
+    font-weight: 400;
+}
+.w_services{
+   transform: translate(18%,0%);
+    font-family: Passion One;
+    font-size: 48px;
+    color: #2c234d;
+    font-weight: 600;
+    line-height: .88em;
+    
+}
+.wrapper2{ /* Whatever num of divs you gonna put in the html it gonna follow this grid */
+   
+         display: grid;
+            grid-template-columns: 50% 50% 50%;
+            
+            grid-column-gap: 1.5em; /* That seperate columns */
+            grid-row-gap: 1em;   /* That seperate rows */
+            /* we can use grid-gap: 1em; and it can do the same */
+            width: 550px;
+            height: 400px;
+    transform: translate(45%,10%);
+            
+           
+        }
+
+    .wrapper2 > div{    /* All divs inside wrapper */
+      background:#e6e6ff;
+      padding:1em;
+        
+    }
+    
+    .wrapper2 > div:hover{
+        
+        transform: scale(.9);
+    background:#ffc966;
+    }
+        ..wrapper > div:nth-child(odd){ /* each div has a different shade of gray */
+            background: orange;
+    }
+            
+    .words2 {
+        
+        
+        transform: translate(20%,0%);
+        text-align: justify;
+        
+    } 
+
+    .head3{
+ color: #677294;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+      transform: translate(-20%,0%);  
+    
+    }
+    
+     
+    
+    .par2{
+        
+          color: #2C234D;
+    font-family: "Passion One",Sans-serif;
+    font-size: 20px;
+    font-weight: 900;  
+       transform: translate(-5%,0%); 
+        word-spacing: 1px;
+        
+    }
+    .par3{
+        
+          color: #2C234D;
+    font-family: "Passion One",Sans-serif;
+    font-size: 20px;
+    font-weight: 900;  
+       transform: translate(-3%,0%); 
+        
+    }
+    .par4{
+        
+          color: #2C234D;
+    font-family: "Passion One",Sans-serif;
+    font-size: 20px;
+    font-weight: 900;  
+       transform: translate(7%,0%); 
+        
+    }
+    .img-card{
+        
+    transform: translate(20%,20%);
+    }
+        .more_info{
+         position: absolute;
+            margin-left: 80px;
+            text-decoration: underline;
+            color: #e6e6ff;
+            font-weight: 400;
+            font-size: 20px;
+        }    
+    
+.ship{
+    
+   transform: translate(-18%,-86%);
+    opacity: .8;
+    
+}
+.ocean{
+    
+     
+   transform: translate(900%,140%);
+    opacity: .9; 
+    
+}    
+.location{
+  transform: translate(-150%,-10%);  
+
+}  
+.clock{
+    
+   transform: translate(-150%,-10%);   
+}
+.headphone{
+   transform: translate(-150%,-10%); 
+}
+.pointer{
+    transform: translate(0%,30%);
+}
+/*--------------------------
+mission
+-------------------------*/
+.mession_section{
+    font-family: "Roboto",Sans-serif;
+    font-size: 16px;
+    color: #677294;
+    font-weight: 400;
+    line-height: 1.88em;
+    text-align: left;
+    transform: translate(3%, -40%);
+}
+
+.mission{
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.missionhead{
+    margin: 0 200px 0 0;
+    padding: 10px;
+    display: grid;
+    position: relative;
+}
+
+h2{
+    line-height: 1.25em;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    font-size: 40px;
+    color: #2c234d;
+   
+}
+
+.misp1{
+    color: #2C234D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.67em;
+}
+
+.missionimage{
+    background-image: url(https://d329jirxh7znrd.cloudfront.net/logistic/wp-content/uploads/sites/431/2020/06/home-about.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 115%;
+    position: relative;
+    display: flex;
+}
+
+.imgp{
+    left: -142px;
+    width: 368px;
+    max-width: 395px;
+    top: 310px;
+    position: absolute;
+    padding: 65px 45px 65px 45px;
+    background-color: #F15F22;
+    text-align: left;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    transform: translate(0%, -10%);
+}
+
+
+/*--------------------------
+quote
+-------------------------*/
+
+.quote_section{
+    font-family: "Roboto",Sans-serif;
+    overflow-y: inherit;
+    background-image: url(https://d329jirxh7znrd.cloudfront.net/logistic/wp-content/uploads/sites/431/2020/06/quote-bg.jpg);
+    overflow-y: hidden;
+    transform: translate(0%,-20%);
+}
+.formhead
+{
+margin-left: auto;
+position: relative;
+width: 50.893%; 
+}
+
+.form{
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+    transform: translate(0%, -70%);
+}
+.quote_text{
+
+font-family: Passion One;
+font-size: 45px;
+color: #2c234d;
+font-weight: 800;
+line-height: .88em;
+margin-bottom: 20px;
+width: 100%;
+position: relative;
+text-align: left;
+}
+
+.qoute_p{
+width: 100%;
+color: #677294;
+position: relative;
+font-weight: 400;
+line-height: 1.88em;
+text-align: left;
+font-size: 16px;
+}
+
+.picquote{
+    width: 600px;
+    height: 650px;
+    transform: translate(0%, 35%);
+}
+
+.formsection{
+width: 50.893%;
+display: flex;
+position: relative;
+text-align: left;
+margin-top: 40px;
+margin-bottom: 0;
+margin-left: auto;
+
+
+}
+
+.f1{
+width: 90%;
+     display: flex;
+    column-gap: 15px;
+}
+
+.f2
+{
+width: 90%; 
+display: flex;
+column-gap: 15px;
+}
+
+.f4{   
+ width: 91%;   
+    
+}
+
+.field{
+margin-bottom: 20px;
+position: relative;
+background-color: #FFF;
+font-size: 1rem;
+border-radius: 5px 5px 5px 5px;
+padding: 15px 25px 15px 25px;
+width: 90%;
+border: 1px solid #EFEAEA;
+    
+}
+.field:hover{
+border: 1px solid orangered;
+    
+}
+.field1{
+width: 90%;
+display: flex;
+column-gap: 15px;
+    
+    
+}
+.f3{
+  width: 90%;
+display: flex;
+column-gap: 15px;  
+    
+}
+
+.label1{
+        font-weight: 700;
+}
+
+.quote_submit{
+    color: #FFF;
+    background-color: #F26F38;
+    background-image: none;
+    border-style: none;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F15F22;
+    margin-bottom: 20px;
+font-size: 1rem;
+border-radius: 5px 5px 5px 5px;
+padding: 15px 25px 15px 25px;
+width: 90%;
+    cursor: pointer;
+}
+/*--------------------------
+customers
+-------------------------*/
+.customers_section{
+    overflow-x: hidden;
+    transform: translate(0%, -35%);
+   
+}
+
+.cards3{
+        transform: translate(10%,-120%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px,1fr));
+        grid-gap: 20px;
+        max-width: 1000px;
+        align-items: center;
+     
+        
+            
+        
+        
+      }
+        .card3-content{
+          
+          font-size: .9em; /* is equal 90% */
+          background: #ffe4b3;
+          line-height: 1.5; /* spaces between lines */
+          padding: 15px; /* space from the card edges*/
+          font-family: sans-serif;
+    color: #2C234D;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 400;
+
+}
+.card3-content :hover{
+    background: #ffc14d;
+    
+    }          
+          
+      }
+  .card3-content > p:first-of-type {
+          
+       margin-top: 0;
+      }
+      
+     .card3-content > p:last-of-type {
+          
+       margin-bottom: 0;
+      }
+      .more3-info{
+          
+          padding: 15px; /* we make it like crad-content inorder to make this section exactly beneath the content section */
+          display: flex; /* the make the icon and the like came beside each other*/
+          justify-content: space-between;
+          background: #ffc14d;
+          font-size: .8em;
+          border-bottom: 2px solid darkgrey;
+          align-items: center;
+          color: #555555;
+          font-family: sans-serif;
+          font-weight: 400;
+          
+        
+      }
+      .more3-info > div img{
+          
+       margin-right: 8px;
+          cursor: pointer;
+          
+          
+      }
+      
+       .more3-info > div img:hover{
+          
+     box-shadow: 2px 2px 2px blue;
+
+          
+          
+      }
+      .card3-link {
+          
+          
+          color: #2c234d;
+          text-decoration: none;
+              font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+      }
+      
+
+    .cards3 > div{
+      
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        align-items: center;
+    }
+    .cards3 > div:nth-child(odd){
+     
+        
+    }
+.c_said{
+       transform: translate(7%,20%);
+    font-family: Passion One;
+    font-size: 48px;
+    color: #2c234d;
+    font-weight: 600;
+    
+}
+.numeric{
+    transform: translate(80%,-170%);
+    
+}
+.milion1{
+   font-family: Passion One;
+    font-size: 48px;
+    color: #2c234d;
+    font-weight: 600;
+    transform: translate(0%,230%);
+    
+}
+.milion2{
+   font-family: Passion One;
+    font-size: 48px;
+    color: #2c234d;
+    font-weight: 600;
+    
+}
+
+.kind1{
+    color:#808080;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    transform: translate(-6%,18%);
+}
+.kind2{
+   color:#808080;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    transform: translate(-5%,-110%); 
+    
+}
+.truck3{
+   transform: translate(-50%,5%); 
+}    
+.world2{
+    
+transform: translate(-50%,20%);
+}
+.worldwide{
+    margin: 0 auto;
+ transform: translate(-10%,170%);
+}
+.btn_w{
+    height: 60px;
+    width: 170px;
+    transform: translate(900px, 330px);
+   cursor: pointer;
+    color: orangered;
+    background-color: white;
+}
+.request{
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    transform: translate(14px, 20px);
+}
+
+/*--------------------------
+news
+-------------------------*/
+.news_section{
+        font-family: "Roboto",Sans-serif;
+    transform: translate(35%, -150%);
+    }
+    
+    .newshead{
+        margin-left: 140px;
+    }
+    .news_ul {
+        list-style-type:none;
+         display: flex;
+        transform: translate(-30%,0%);
+        }
+    
+    .news_li{
+        display:inline-block;
+        margin: 10px;
+        box-sizing: content-box;
+        line-height: 1.5em;
+      
+        }
+    
+    .img_news{
+        width:300px;
+        height:200px;
+    
+    }
+    
+    .news_p{
+        font-size: 12px;
+        color: #006ba1;
+        transform: translate(0%,0%);
+      
+    }
+.news_p1{
+    font-size: 12px;
+        color: #006ba1;
+        transform: translate(-41%,0%);
+      
+    
+}
+    
+    .news_h2{
+        display: block;
+        position: relative;
+        font-size: 30px;
+        color: #2c234d;
+        text-align: left;
+        font-weight: 800;
+         transform: translate(-41%,0%);
+    }
+    
+    
+    .news_a{
+        color: #2c234d;
+        text-decoration: none;
+        font-size: 14px;
+    font-weight: 800;
+    }
+    .news_a:hover{color:coral}
+./*--------------------------
+subscrib
+-------------------------*/
+    .subscrib_section{overflow-x: hidden;
+    background-color: blue;
+    box-sizing: border-box;
+    border: 2px 2px 3px black;
+    width: 100%;
+    display: grid;
+    height: 50px;
+    grid-template-columns: auto;
+
+}
+
+.midd{
+   font-family: Passion One;
+    font-size: 15px;
+    color: #2c234d;
+    line-height: 1.5em;
+    transform: translate(25%,-300%);
+    font-weight: 400;
+}
+.email{
+     transform: translate(4%,100%);
+}
+.text{
+    width: 500px;
+    height: 50px;
+    padding: 0px 20px;
+    transform: translate(5%,0%);
+    border-radius: 50px;
+    grid-area: block;
+}
+.search_btn{
+   height: 50px; 
+    width: 100px;
+    transform: translate(-19%, 0%);
+    background-color: #F15F22;
+    border: none ; 
+    cursor: pointer;
+    border-radius: 50px;
+    transform: translate(-78%,-4%);
+    
+}
+
+
+.contact-form h2{
+    font-family: fantasy;
+    text-align: center;
+    display: block;
+    color: #2C234D;
+    letter-spacing: 5px;
+    font-size: 37px;
+    margin-top: 50px;
+}
+.contact-form form input{
+    width: 47%;
+    height: 53px;
+    margin-left: 18px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+}
+.contact-form form input:focus{
+    outline: none;
+}
+.contact-form form textarea{
+    width: 97%;
+    margin: 19px 26px 9px 18px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+}
+.contact-form form textarea:focus{
+    outline: none;
+}
+.contact-form form .submit{
+    width: 97%;
+    margin: 19px 26px 9px 18px;
+    border: none;
+    background: #F26F38;
+    font-family: fantasy;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: opacity .5s;
+}
+.contact-form form .submit:hover{
+    opacity: .92;
+}
+./*--------------------------
+footer
+-------------------------*/
+.footer_section{
+     margin:0;
+    padding: 0;
+}
+.homer{
+    
+font-weight:1000;
+font-family: Roboto sans-serif;
+    font-size: 15px;
+    color: #00004d;
+    cursor: pointer;
+}
+.menu {
+    float: left;
+    padding-left: 0px;
+    height: 60;
+    background-color:#ffdb99;
+    width: 100%;
+    padding-top: 30px;
+    display: inline-block;
+    transform: translate(0,-90%);
+}
+.a_footer{
+    text-decoration: none;
+    transform: translate(0,-20%);
+     cursor: pointer;
+    padding-left: 20px;
+    color: #2C234D;
+    font-weight: bold;
+    
+}
+.a_footer:hover{
+    color: darkorange;
+}
+.footer_ul {
+    list-style-type: none;
+    transform: translate(10,-20%);
+}
+.footer_li {
+    float: left ;
+   margin-left: 30px;
+     transform: translate(0,-42%);
+}
+.menuico{
+    float: right;
+    padding-right: 150px;
+}
+.menu1{
+   padding-left:100px; 
+}
+.footer1{
+    height: 200px;
+    padding-left: 50px;
+    padding-top:200px;
+    margin-top: 110px;
+    background-color: ;
+    transform: translate(0,-20%);
+}
+.city{
+    
+color:#2C234D;
+font-weight: 800;
+line-height: 1.5em;
+}
+.c_info{
+   font-family: Roboto Condensed;
+    font-size: 16px;
+    color: #677294;
+    font-weight: 400;
+    line-height: 1.5em; 
+    
+}
+.politics{
+    
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    color: #677294;
+    font-weight: 400;
+    line-height: 1.88em;
+    text-decoration: none;
+}
+.menu02{
+    width: 100%;
+    height: 30px;
+    padding-top:30px; 
+    padding-bottom:30px;
+    display: inline-block;
+    padding-left: 385px;
+        transform: translate(3.5%,-10%);
+
+}
+.footer2{
+    color: #AEB4BA;
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1em;
+    transform: translate(38%, -80%);
+}
+element{
+ color: #f15f22;   
+    
+}
