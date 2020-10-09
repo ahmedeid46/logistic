@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 $dsn = 'mysql:host=localhost;dbname=logistic';
 $user = 'root';
 $pass = '';
@@ -14,5 +14,5 @@ try {
 } catch (PDOException $e) {
     echo 'failed to connect' . $e->getMessage();
 }
-
+ob_end_flush();
 
