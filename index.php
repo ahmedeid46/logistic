@@ -1,3 +1,6 @@
+<?php
+ob_start();
+?>
 <html>
 
 <head>
@@ -506,3 +509,5 @@
 </body>
 
 </html>
+<?php
+ob_end_flush();
